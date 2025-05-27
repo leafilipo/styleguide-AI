@@ -1,0 +1,145 @@
+🖤 Dark UI Design System
+
+A premium, minimal, and accessible dark theme system for web and product interfaces. Designed for clarity, softness, and contrast, this guide defines the foundational tokens, components, and styles to enable consistent, branded UI generation.
+
+✅ Optimized for use with design automation tools and AI theming engines
+
+⸻
+
+🎨 Color Tokens
+
+Neutral – Dark (Backgrounds & Surfaces)
+
+Token	Hex	Use
+neutral900	#1E1E1E	Base background / body
+neutral850	#222020	Cards, sections
+neutral800	#2D2A2A	Elevated cards
+neutral700	#383232	Borders, strokes
+neutral600	#443939	Dividers, sub-elements
+
+Neutral – Light (Text, Lines, Muted Elements)
+
+Token	Hex	Use
+neutral500	#A89F96	Secondary text
+neutral400	#B9AFA4	Placeholder / disabled
+neutral300	#CEC3B7	Light strokes / outlines
+neutral200	#DDD2C6	Cards on light background
+neutral100	#F2EAE2	Inverted BG / highlights
+
+Primary – Lavender (Brand Accent)
+
+Token	Hex	Use
+primary900	#4A345D	Strong emphasis / CTA hover
+primary800	#62497B	CTA buttons / badges
+primary700	#8265A1	Accent highlights / tags
+primary600	#9D7DC5	Links / focus rings
+primary500	#B49ADC	Background tints / icons
+
+Green – Success
+
+Token	Hex	Use
+success900	#255E52	Strong success / BG
+success800	#2F7B69	Filled success UI
+success700	#3E9C81	Icons / chips
+success600	#52B79D	Text / buttons
+success500	#73D4BB	Tags / faded BG
+
+Red – Alert / Error
+
+Token	Hex	Use
+alert900	#5B3A42	Error backgrounds
+alert800	#814B56	Filled warnings
+alert700	#A7656F	Icon / text warning
+alert600	#C38D99	Subtle alerts
+alert500	#D8A9B5	Light alert tags
+
+
+⸻
+
+🧱 Typography
+
+Font: Montserrat
+Line height generally set to 100–120% for tight vertical rhythm.
+
+Style	Weight	Size	Use
+titleXL	Demi-Bold	50px	Hero titles / headlines
+titleM	Bold	38px	Section headers
+titleS	Bold	28px	Widget titles / cards
+bodyM	Regular	22px	Paragraphs, modals
+bodyS	Regular	18px	Secondary text, footers
+buttonM	Bold	22px	Main buttons
+buttonS	Bold	18px	Small buttons, tags
+
+
+⸻
+
+🧩 Components
+
+🔘 Buttons
+
+Property	Value
+Radius	99999px
+Padding	32px L/R, 10px T/B
+Height M	48px
+Height S	36px
+Text Style	buttonM/S
+Hover State	Opacity 85%
+Shadow	Blur: 8px, primary200, 30%
+
+
+⸻
+
+🃏 Cards
+
+Elevation 1 – Static / Grayed
+	•	Radius: 34px
+	•	BG: neutral850
+	•	Border: neutral700
+	•	Hover: Dim to 85% (if interactive)
+
+Elevation 2 – Interactive
+	•	Radius: 15px
+	•	BG: neutral800
+	•	Border: neutral700
+	•	Drop Shadow:
+	•	Offset: 12px 12px
+	•	Blur: 24px
+	•	Color: #000000 @15%
+	•	Hover: Dim to 85%
+
+⸻
+
+✨ Effects
+
+Glow on Titles & Logos
+	•	Drop Shadow: Blur 8px, #E7D4C6 @30%
+	•	Inner Shadow: Blur 8px, #E7D4C6 @30%
+
+⸻
+
+📐 Spacing & Layout (recommended)
+
+Token	Value	Use
+spaceXS	4px	Icon padding / border-radius
+spaceS	8px	Small gaps
+spaceM	16px	Standard UI padding
+spaceL	24px	Section spacing
+spaceXL	32px+	Full-page layout padding
+
+
+⸻
+
+🧠 Icon & Illustration Style
+	•	Style: Monoline, geometric, slightly rounded edges
+	•	Stroke: neutral300 on dark, neutral800 on light
+	•	Size: 20px, 24px, 32px
+	•	Motion (optional): Use soft easing, e.g., ease-out over 250ms
+
+⸻
+
+🧪 Usage Notes
+	•	Use high contrast between text and background, especially for accessibility.
+	•	Primary colors should be used sparingly for emphasis, not as base UI.
+	•	Elevation and hover states are key in distinguishing interactivity.
+	•	Avoid using more than 2 accent colors in one view.
+	•	Favor bodyS over smaller fonts for readability in dark themes.
